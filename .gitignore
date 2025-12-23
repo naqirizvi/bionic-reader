@@ -1,0 +1,69 @@
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Private Keys and Secrets
+*.pem
+*.key
+*.p12
+*.pfx
+*.env
+*.env.local
+.env.*.local
+secrets.json
+credentials.json
+
+# Build Artifacts
+*.zip
+bionic-reader.zip
+dist/
+build/
+*.crx
+*.pem
+
+# Node modules (if added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.cache/
+
+# Chrome Extension specific
+*.crx
+*.pem
+*.zip
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.bak
+*.backup
+*.orig
+
